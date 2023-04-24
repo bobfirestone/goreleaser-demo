@@ -1,5 +1,9 @@
 package main
 
 func main() {
-	println("Hello goreleaser bump to v0.1.3")
+	Foo("v0.1.4")
+}
+
+func Foo(version string) {
+	println("Hello goreleaser bump to " + version))
 }
