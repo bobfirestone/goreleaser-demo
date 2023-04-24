@@ -5,5 +5,5 @@ func main() {
 }
 
 func Foo(version string) {
-	println("Hello goreleaser bump to " + version))
+	println("Hello goreleaser bump to " + version)
 }
