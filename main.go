@@ -1,5 +1,7 @@
 package main
 
+import "main/foo"
+
 func main() {
-	println("Hello goreleaser bump to v0.1.3")
+	foo.Foo("v0.1.4")
 }
