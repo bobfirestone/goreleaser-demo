@@ -1,9 +1,7 @@
 package main
 
-func main() {
-	Foo("v0.1.4")
-}
+import "main/foo"
 
-func Foo(version string) {
-	println("Hello goreleaser bump to " + version)
+func main() {
+	foo.Foo("v0.1.4")
 }
